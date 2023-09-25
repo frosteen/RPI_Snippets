@@ -1,0 +1,3 @@
+Install Raspbian Bullseye
+
+https://www.raspberrypi.com/documentation/accessories/camera.html#libcamera-still

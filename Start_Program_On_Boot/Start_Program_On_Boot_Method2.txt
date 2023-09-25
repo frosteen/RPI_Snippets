@@ -1,0 +1,9 @@
+# Only run the program once
+
+mkdir /home/pi/.config/autostart
+nano /home/pi/.config/autostart/program.desktop
+
+[Desktop Entry]
+Type=Application
+Name=Program
+Exec=/usr/bin/python3 /home/pi/Program.py &

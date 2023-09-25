@@ -1,0 +1,12 @@
+1. To tell the Raspberry Pi to automatically connect to your WiFi network you need to edit a file called: wpa_supplicant.conf.
+
+To open the file in nano type the following command:
+ 
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+2. Scroll to the end of the file and add the following to the file to configure your network: 
+
+network={
+   ssid="THESIS_TRAFFIC"
+   psk="THESIS_TRAFFIC"
+}

@@ -1,0 +1,15 @@
+You can upgrade/downgrade to any revision of Raspbians firmware using rpi-update. For example if you want to install revision 3.10.25+ you should execute this:
+
+sudo rpi-update 2ef601a50b68eebeeb4dc3c6c525855961891be6
+The long string represents the Git hash for the specific firmware revision. You can look for those hash in the rpi-update git repos commits list: https://github.com/Hexxeh/rpi-firmware/commits/master.
+
+Look for the commits having “kernel: bump to 3.X.X” and click the boton on the right:
+
+Now you can see the whole hash string in the url:
+
+Ref: https://github.com/Hexxeh/rpi-update
+
+
+
+
+Reference: https://medium.com/enekochan/upgrade-downgrade-to-a-specific-firmware-kernel-version-with-rpi-update-in-raspbian-d7cc1408d014

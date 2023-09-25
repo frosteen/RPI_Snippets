@@ -1,0 +1,2 @@
+1. Run vi in the terminal
+2. Press ESC and type ":set nocompatible" with the colon

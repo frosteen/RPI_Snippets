@@ -1,0 +1,9 @@
+Reference:
+
+https://support.remote.it/hc/en-us/articles/360047542051-Installing-remoteit-on-a-Raspberry-Pi-running-Raspbian-or-Raspberry-Pi-OS
+
+Command:
+
+1. sudo apt install remoteit
+
+2. http://raspberrypi.local:29999

@@ -1,0 +1,7 @@
+sudo apt-get update
+sudo apt-get install python3-matplotlib
+sudo apt-get install python3-scipy
+pip3 install pandas
+pip3 install numpy
+pip3 install scikit-learn
+pip3 install seaborn
