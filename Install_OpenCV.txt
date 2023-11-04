@@ -8,6 +8,5 @@ sudo apt-get install libqt4-test -y
 pip3 install opencv-python
 pip3 install -U numpy
 
-Check with python:
-
+# Check with python
 import cv2
