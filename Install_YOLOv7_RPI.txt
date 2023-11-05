@@ -1,3 +1,4 @@
+# Clone the repo
 git clone https://github.com/WongKinYiu/yolov7.git
 
 ## Edit requirements.txt and comment the following:
@@ -9,6 +10,7 @@ git clone https://github.com/WongKinYiu/yolov7.git
 # psutil  # system utilization
 # thop  # FLOPs computation
 
+# install the updated requirements.txt
 pip3 install -r requirements.txt
 
 # test inference
