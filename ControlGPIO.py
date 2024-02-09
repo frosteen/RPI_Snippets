@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 
-class PushButtonH:
+class ControlGPIO:
     def __init__(self, button_pin, is_input=True):
         GPIO.setmode(GPIO.BCM)  # BCM pin-numbering scheme
         self.button_pin = button_pin
