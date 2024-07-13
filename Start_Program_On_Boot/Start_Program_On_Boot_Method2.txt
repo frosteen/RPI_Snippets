@@ -7,3 +7,4 @@ nano /home/pi/.config/autostart/program.desktop
 Type=Application
 Name=Program
 Exec=/usr/bin/python3 /home/pi/Program.py &
+WorkingDirectory=/home/pi/
