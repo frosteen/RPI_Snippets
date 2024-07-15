@@ -1,0 +1,9 @@
+sudo apt install systemd-timesyncd -y
+sudo timedatectl set-ntp true
+ntp_servers="us.pool.ntp.org"
+config_file="/etc/systemd/timesyncd.conf"
+if ! grep -q "^NTP=$ntp_servers" "$config_file"; then
+    echo "NTP=$ntp_servers" | sudo tee -a "$config_file"
+fi
+sudo systemctl daemon-reload
+sudo systemctl restart systemd-timesyncd
